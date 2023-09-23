@@ -1,0 +1,340 @@
+.nav-item{
+    margin-right: 3.125rem
+}
+
+.navbar{
+    padding: 1.25rem 0;  
+}
+
+.navigation{
+    /* border-radius: 1.25rem; */
+}
+.nav-btn{
+    margin-right: 2.5rem;
+    background-color: #4a47ff;
+    /* border-radius: 12px; */
+}
+
+/* Banner1 */
+#banner1{
+    background-color: #4a47ff;
+    z-index: 1;
+}
+#banner1{
+    background-image:url("../images/banner3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 39.063rem;
+    z-index: -1;
+}
+#banner1 .title{
+    color: #dfe7fd;
+    margin-bottom: 3.125rem;
+    font-family: 'Montserrat', sans-serif;
+}
+#banner1 {
+    color: rgb(7, 241, 171);
+    font-weight: bolder;
+    margin-bottom: 3.125rem;
+
+}
+
+/* banner2 */
+#banner2 .about img{
+height: 28.125rem;
+width: 38.988rem;
+border-radius: 1.25rem;
+}
+#banner2{
+    font-family: 'Inter', sans-serif;
+    margin-top: 6.25rem;
+
+}
+#banner2 h1{
+    margin-bottom: 1.25rem;
+}
+#banner2 p{
+    font-size: 1.5rem;
+    text-align: justify;
+    line-height: 2.5rem;
+    color: #23344e;
+
+}
+
+/* banner3 */
+#banner3{
+    text-align: center;
+    margin-top: 6.25rem;
+}
+
+#banner3 .col-3{
+    background-image: url("../images/brakes.jpg");
+height: 21.875rem;
+width: 23.75rem;
+border-radius: 1rem;
+margin-top: 6.25rem;
+}
+#banner3 .air{
+    background-image: url("../images/car_ac.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#banner3 .brake{
+background-image: url("../images/brakes.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+#banner3 .cool{
+    background-image: url("../images/cooling\ system.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#banner3 .suspension{
+    background-image: url("../images/suspension.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#banner3 .tires{
+    background-image: url("../images/tires.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#banner3 .repair{
+    background-image: url("../images/repair\ and\ rebuils.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#banner3 .electrical{
+    background-image: url("../images/electrical.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#banner3 .transmission{
+    background-image: url("../images/transmission.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#banner3 .col-3 a{
+    position: relative;
+    top: 18.125rem;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+}
+/* banner */
+.bannerp{
+    font-size: 1.5rem;
+    text-align: justify;
+    line-height: 2.3rem;
+    color: #23344e;
+}
+#banner{
+    padding-top: 4.375rem;
+    background-color: #f8f8f8;
+}
+#banner h1{
+    margin-bottom: 2.5rem;
+}
+#banner1{
+    margin: 0;
+}
+
+/* banner4 */
+#banner4{
+    margin-top: 7.375rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #eeeeee;
+}
+#banner4 img{
+    height: 25.25rem;
+    width: 38.438rem;
+    border-radius: 1.25rem;
+}
+#banner4 ul li a{
+    text-decoration: none;
+}
+#banner4 ul li{
+    margin-top: 0.625rem;
+}
+
+/* banner5 */
+#banner5{
+    background-color: #23344e;
+}
+#banner5 img{
+    height: 34.375rem;
+    width: 43.75rem;
+}
+#banner5 .carousel-item{
+    padding-left: 6.25rem;
+    padding-top: 7.5rem;
+}
+#banner5 .adjust1{
+    margin-left: -3.875rem;
+}
+#banner5 .adjust2{
+    margin-right: -3.875rem;
+}
+
+/* banner6 */
+#banner6{
+    text-align: center;
+    margin-top: 6.25rem;
+}
+#banner6 form{
+    margin-top: 6.25rem;
+}
+#banner6 .form-group label{
+    text-align: left;
+}
+#banner6 .form-group{
+    margin-bottom: 1.563rem;
+}
+#banner6 .form-group input{
+    border-radius: 0.563rem;
+}
+#banner6 .contimg img{
+    height: 27.875rem;
+    width: 33.25rem;
+    border-radius: 1.25rem;
+    margin-top: 6.25rem;
+}
+
+/* footer */
+#footer{
+    background-color:#23344e;
+    border-radius: 1rem;
+    color: white;
+    margin-top: 6.25rem;
+    padding:3.75rem 0;
+}
+#footer .page i{
+    font-size: 2rem;
+    margin-left: 0.5rem;
+    font-weight: bold;
+}
+#footer h4{
+    margin-bottom: 1.813rem;
+}
+
+@media (min-width:986px) and (max-width:1268px){
+    #banner2 .about img{
+        height: 25rem;
+        width:31.25rem;
+    }
+}
+
+
+
+/* about section */
+#banner1_about{
+    padding-top: 13rem;
+}
+#banner1_about img{
+    height: 500px;
+}
+#banner1_about h2{
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+#banner1_about p{
+    font-size: 1.5rem;
+}
+#banner1_about h4{
+    text-align: center;
+    margin: 6rem 0;
+}
+
+/* banner2 */
+#banner2_about{
+    text-align: center;
+}
+#banner2_about p{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+#banner2_about i{
+    font-size: 2rem;
+    margin: 10px 15px;
+}
+
+/*banner3 */
+#banner3_about img{
+    margin: 40px 0 100px 169px;
+    height: 65%;
+    width: 75%;
+    border-radius: 1rem;
+    text-align: center;
+}
+#banner3_about h3{
+    margin-top: 100px;
+}
+#banner3_about p{
+    margin-top: 40px;
+}
+
+/* banner5 */
+#banner5_about form{
+    margin-top: 100px;
+}
+#banner5_about label{
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+
+/* engine */
+#banner1_engine {
+    padding-top: 280px;
+    text-align: center;
+    background-image: url("../images/engine.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 39.063rem;
+}
+#banner_engine {
+    height: 700px;
+}
+
+/* banner2_engine */
+#banner2_engine{
+    margin-top: 100px;
+    text-align: center;
+}
+
+/* banner3 */
+#banner3_engine{
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* banner4 */
+#banner4_engine{
+    margin-top: 100px;
+}
+#banner4_engine h1{
+    text-align: center;
+    margin-bottom: 75px;
+
+}
+#banner4_engine img{
+height: 500ox;
+width: 400px;
+}
+
+/* banner5 */
+#banner5_engine{
+    text-align: center;
+}
+
+/* banner7 */
+#banner7_engine{
+    background-color: #488aed;
+    padding:20px 0;
+    text-align: center;
+    margin-top: 100px;
+}
